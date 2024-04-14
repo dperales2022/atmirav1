@@ -9,7 +9,7 @@ import { getStorage } from "firebase/storage";
 
 // Your web app's Firebase configuration
 const firebaseConfig = {
-  apiKey: "AIzaSyDvJ4oaE4YagixQxKMt5hd56XBCoDn9rMk",
+  apiKey: "",
   authDomain: "itaca-311a0.firebaseapp.com",
   databaseURL: "https://itaca-311a0-default-rtdb.firebaseio.com",
   projectId: "itaca-311a0",
