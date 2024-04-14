@@ -19,7 +19,7 @@ import { GraphCypherQAChain } from "langchain/chains/graph_qa/cypher";
 
 const url = "neo4j+s://b0c2cfa5.databases.neo4j.io";
 const username = "neo4j";
-const password = "7dDPbiw9ohk54DCsYxL-hJgotpbwfIfdl-5x3c2425U";
+const password ";
 
 let model;
 
