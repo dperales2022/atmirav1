@@ -20,7 +20,7 @@ import { Box } from "@mui/material";
 
 const url = "neo4j+s://b0c2cfa5.databases.neo4j.io";
 const username = "neo4j";
-const password = "7dDPbiw9ohk54DCsYxL-hJgotpbwfIfdl-5x3c2425U";
+const password = "";
 
 let model;
 
@@ -139,7 +139,7 @@ function MyPeopleGraph({}) {
   const populateGraph = async () => {
     const graph = await Neo4jGraph.initialize({ url, username, password });
     model = new OpenAI({
-      openAIApiKey: "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",
+      openAIApiKey: "",
       modelName: "gpt-4-0125-preview",
       temperature: 0,
     });
